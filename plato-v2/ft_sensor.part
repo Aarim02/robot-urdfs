@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "004f2c5326fc3bbd6a983ee0",
+    "documentMicroversion": "91cfd0c9a1b801b1648b5b8c",
+    "documentVersion": "b997acc0b8e4a9aa966cb154",
+    "elementId": "a75e099be5ccbf2f698e5e71",
+    "fullConfiguration": "default",
+    "id": "MRYCLTgx6FGi133Mv",
+    "isStandardContent": false,
+    "name": "ft_sensor <1>",
+    "partId": "JFD",
+    "suppressed": false,
+    "type": "Part"
+}

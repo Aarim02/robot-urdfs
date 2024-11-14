@@ -1,0 +1,21 @@
+{
+    "documentId": "b3d87d1f3e85c40108b3d274",
+    "workspaceId": "ada5e72067a9e55329ccd51f",
+    "outputFormat": "urdf",
+    "assemblyName": "urdf-assembly",
+    "mergeSTLs": "all",
+    "drawCollisions":true,
+    "useCollisionsConfigurations": true,
+    "simplifySTLs": "all",
+    "maxSTLSize": 1,
+    "robotName": "plato2",
+    "drawFrames": true,
+    "jointMaxVelocity": 1.57,
+    "jointMaxEffort": {
+        "default": 0.85
+    }
+
+    
+
+
+}
