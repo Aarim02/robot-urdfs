@@ -1,5 +1,5 @@
 <robot name="plato2">
-<link name="hand_base">
+<link name="base_link">
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
@@ -143,7 +143,7 @@
 
 <joint name="joint1" type="revolute">
 <origin xyz="0.0114999999999999096 0.038500000000000658695 -0.015849999999999999506" rpy="-1.4737533686639961364e-15 1.5707963267948925612 0" />
-<parent link="hand_base" />
+<parent link="base_link" />
 <child link="thumb_metacarpal" />
 <axis xyz="0 0 1"/>
 <limit effort="0.8499999999999999778" velocity="1.5700000000000000622" lower="-0.34906585039886589561" upper="1.2217304763960306069"/>
@@ -207,7 +207,7 @@
 
 <joint name="joint5" type="revolute">
 <origin xyz="0.11350000000000258493 0.038999999478459682067 0.026000000000000050848" rpy="-1.5707963267948943376 -1.9030292742348252489e-15 1.8028341758332456101e-16" />
-<parent link="hand_base" />
+<parent link="base_link" />
 <child link="index_proximal" />
 <axis xyz="0 0 1"/>
 <limit effort="0.8499999999999999778" velocity="1.5700000000000000622" lower="-1.0471975511965976313" upper="1.0471975511965976313"/>
@@ -271,7 +271,7 @@
 
 <joint name="joint7" type="revolute">
 <origin xyz="0.11350000010068259093 -0.033999999478459497215 0.026000000100679862558" rpy="-1.5707963267948956698 -1.9304364882985896395e-15 1.3078536769695731521e-15" />
-<parent link="hand_base" />
+<parent link="base_link" />
 <child link="middle_proximal" />
 <axis xyz="0 0 1"/>
 <limit effort="0.8499999999999999778" velocity="1.5700000000000000622" lower="-1.0471975511965976313" upper="1.0471975511965976313"/>
